@@ -1,0 +1,160 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #575860;
+}
+
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 8px;
+    color: white;
+    background-color: rgb(28, 28, 75);
+    width: 400px;
+   
+  }
+  
+  .container{
+    margin: 0 100px;
+    padding: 10px;
+    display: flex;
+   
+  }
+  
+  .pageTitle{
+    display: flex;
+    justify-content: space-between;
+    background-color:#1f1f22;
+    padding: 20px 10px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    align-items: center;
+    height: 40px;
+    margin: 15px 15px;
+  }
+  
+  .headtitle{
+    background: linear-gradient(to right, #ff5733, #f5a623, #e9e622, #41dc57, #23e2f5);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 0 80px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .thumb-img{
+    justify-content: center; 
+    align-items: center;  
+    width: 60%;
+  }
+  
+  .thumbnail{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  #thumbnail{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .image{
+    max-width: 100%;
+    width: 115px;
+    height: 100px;
+    object-fit: cover;
+    display: flex;
+  }
+  
+  .desc {
+    padding: 5px 30px;
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(89, 89, 111);
+  }
+  
+  
+  #title{
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 0;
+    font-weight: bold;
+    
+  }
+  
+  #price{
+    color: rgb(249, 0, 0);
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+  
+  .stock{
+    display: flex;
+  
+  }
+  
+  #stock , .quant{
+    font-size: 15px;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  
+  #stock{
+    margin-left: 30px;
+  }
+
+  #description {
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  p{
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  a#link {
+    font-size: 30px;
+    background-color: transparent;
+    box-shadow: none;
+    width: 136px;
+    height: 50px;
+    color: rgb(66, 203, 227);
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+    margin-top:3px;
+    text-decoration: none;
+    
+
+}
+a#link:hover {
+    background-color: #2600ff4f;
+  
+}
+  
+  
+  
+  
